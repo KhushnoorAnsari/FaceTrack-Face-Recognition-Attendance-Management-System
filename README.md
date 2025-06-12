@@ -6,8 +6,6 @@ A smart, contactless attendance management system developed using **Python**, co
 
 ## 📖 Table of Contents
 
-## 📖 Table of Contents
-
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
@@ -49,30 +47,30 @@ A smart, contactless attendance management system developed using **Python**, co
 
 ## Project Structure
 
-│── ui/                          # Stores registered face images
-│ ├── face_capture.py            # Captures face images & saves them in dataset/
-│ ├── train_model.py            # Trains model using collected images
-│ ├── recognize.py              # Recognizes faces & marks attendance
-│ ├── main_ui.py                # Main interface for the application
-│ ├── attendance_logs/          # Stores attendance records
-│ ├── attendance.csv            # CSV file for attendance logs
-├── attendance.xlsx             # Excel file for attendance logs
-├── attendance.pdf              #Pdf file for attendance logs
-│ ├── dataset/                  # Stores face images of students/employees
-│ ├── person1/                  # Folder for each person (e.g., "John_Doe")
-│ │ ├── 1.jpg                   # Face images of the person
-│ │ ├── 2.jpg
-│ │ ├── ...
-│ ├── person2/
-│ │ ├── 1.jpg
-│ │ ├── 2.jpg
-│ │ ├── ...
-│ │── trained_model/             # Stores trained facial encodings
-│ │ ├── face_encodings.pkl       # Pickle file for storing face encodings
-│── init_attendance              # To initialize the "attendence.csv file"
-│── main.py                      # Main application script
-│── requirements.txt             # Dependencies list
-│── README.md                    # Project documentation
+│── ui/                          # Stores registered face images<br>
+│ ├── face_capture.py            # Captures face images & saves them in dataset/<br>
+│ ├── train_model.py            # Trains model using collected images<br>
+│ ├── recognize.py              # Recognizes faces & marks attendance<br>
+│ ├── main_ui.py                # Main interface for the application<br>
+│ ├── attendance_logs/          # Stores attendance records<br>
+│ ├── attendance.csv            # CSV file for attendance logs<br>
+├── attendance.xlsx             # Excel file for attendance logs<br>
+├── attendance.pdf              #Pdf file for attendance logs<br>
+│ ├── dataset/                  # Stores face images of students/employees<br>
+│ ├── person1/                  # Folder for each person (e.g., "John_Doe")<br>
+│ │ ├── 1.jpg                   # Face images of the person<br>
+│ │ ├── 2.jpg                     <br>
+│ │ ├── ...                          <br>
+│ ├── person2/                         <br>
+│ │ ├── 1.jpg                        <br>
+│ │ ├── 2.jpg                         <br>
+│ │ ├── ...                          <br>
+│ │── trained_model/             # Stores trained facial encodings<br>
+│ │ ├── face_encodings.pkl       # Pickle file for storing face encodings<br>
+│── init_attendance              # To initialize the "attendence.csv file"<br>
+│── main.py                      # Main application script<br>
+│── requirements.txt             # Dependencies list<br>
+│── README.md                    # Project documentation<br>
 
 ---
 
@@ -138,12 +136,12 @@ A smart, contactless attendance management system developed using **Python**, co
 
 ---
 
-## Acknowledgments
+## 🙌 Acknowledgments
 
 Special thanks to the Open Source Community for libraries like OpenCV, dlib, and face_recognition.
 
 📚 Developed as part of an academic project by a team of two passionate developers:
 
-####👩‍💻 Khushnoor
+- 👩‍💻 [Khushnoor](https://github.com/KhushnoorAnsari/KhushnoorAnsari)  
+- 👨‍💻 [Suryansh Saini](#)  <!-- Replace with actual username if different -->
 
-####👨‍💻 Suryansh Saini
