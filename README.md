@@ -145,3 +145,16 @@ Special thanks to the Open Source Community for libraries like OpenCV, dlib, and
 - 👩‍💻 [Khushnoor](https://github.com/KhushnoorAnsari/KhushnoorAnsari)  
 - 👨‍💻 [Suryansh Saini](#)  <!-- Replace with actual username if different -->
 
+---
+
+## License
+
+This project is licensed under the MIT License - see the [MIT LICENSE](LICENSE).
+
+---
+
+## Contact
+
+For questions or comments, please reach out to [us](mailto:khushnoor7525.2020@gmail.com)
+
+
