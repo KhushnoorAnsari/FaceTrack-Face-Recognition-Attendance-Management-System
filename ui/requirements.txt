@@ -1,0 +1,14 @@
+opencv-python
+numpy
+pandas
+face_recognition
+dlib
+tk
+smtplib
+ssl
+pickle5
+datetime
+twilio
+Pillow
+fpdf
+scikit-learn
