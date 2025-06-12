@@ -49,30 +49,30 @@ A smart, contactless attendance management system developed using **Python**, co
 
 ## Project Structure
 
-│── ui/ # Stores registered face images
-│ ├── face_capture.py # Captures face images & saves them in dataset/
-│ ├── train_model.py # Trains model using collected images
-│ ├── recognize.py # Recognizes faces & marks attendance
-│ ├── main_ui.py # Main interface for the application
-│ ├── attendance_logs/ # Stores attendance records
-│ ├── attendance.csv # CSV file for attendance logs
-├── attendance.xlsx # Excel file for attendance logs
-├── attendance.pdf #Pdf file for attendance logs
-│ ├── dataset/ # Stores face images of students/employees
-│ ├── person1/ # Folder for each person (e.g., "John_Doe")
-│ │ ├── 1.jpg # Face images of the person
+│── ui/                          # Stores registered face images
+│ ├── face_capture.py            # Captures face images & saves them in dataset/
+│ ├── train_model.py            # Trains model using collected images
+│ ├── recognize.py              # Recognizes faces & marks attendance
+│ ├── main_ui.py                # Main interface for the application
+│ ├── attendance_logs/          # Stores attendance records
+│ ├── attendance.csv            # CSV file for attendance logs
+├── attendance.xlsx             # Excel file for attendance logs
+├── attendance.pdf              #Pdf file for attendance logs
+│ ├── dataset/                  # Stores face images of students/employees
+│ ├── person1/                  # Folder for each person (e.g., "John_Doe")
+│ │ ├── 1.jpg                   # Face images of the person
 │ │ ├── 2.jpg
 │ │ ├── ...
 │ ├── person2/
 │ │ ├── 1.jpg
 │ │ ├── 2.jpg
 │ │ ├── ...
-│ │── trained_model/ # Stores trained facial encodings
-│ │ ├── face_encodings.pkl # Pickle file for storing face encodings
-│── init_attendance # To initialize the "attendence.csv file"
-│── main.py # Main application script
-│── requirements.txt # Dependencies list
-│── README.md # Project documentation
+│ │── trained_model/             # Stores trained facial encodings
+│ │ ├── face_encodings.pkl       # Pickle file for storing face encodings
+│── init_attendance              # To initialize the "attendence.csv file"
+│── main.py                      # Main application script
+│── requirements.txt             # Dependencies list
+│── README.md                    # Project documentation
 
 ---
 
@@ -146,4 +146,4 @@ Special thanks to the Open Source Community for libraries like OpenCV, dlib, and
 
 ####👩‍💻 Khushnoor
 
-## ####👨‍💻 Suryansh Saini
+####👨‍💻 Suryansh Saini
