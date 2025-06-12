@@ -7,8 +7,8 @@ from email.mime.multipart import MIMEMultipart
 import csv
 
 # 📧 Your email and app password
-EMAIL_ADDRESS = "ansariabutayyab@gmail.com"
-EMAIL_PASSWORD = "pquy hclz jfeu zkqp"  # App Password, not your Gmail password
+EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS")
+EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")  # App Password from environment
 
 # Paths
 dataset_path = "dataset"

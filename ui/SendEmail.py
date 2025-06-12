@@ -6,9 +6,9 @@ from tkinter import messagebox
 
 
 # Recommended: Store sensitive info in environment variables for security
-EMAIL_SENDER = os.getenv("EMAIL_SENDER", "ansariabutayyab@gmail.com")
-EMAIL_PASSWORD = "pquy hclz jfeu zkqp"  # You can set this in your system environment variables
-EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER", "auroramkktao@gmail.com")
+EMAIL_SENDER = os.getenv("EMAIL_SENDER")
+EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
+EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER")
 
 # File paths
 csv_file = "attendance_logs/attendance.csv"
